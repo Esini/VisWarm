@@ -7,7 +7,7 @@ import br.uefs.ecomp.viswarm.util.exception.DataNotFoundException;
 public class ArvoreBinaria implements IBinaryTree {
 
 	public ArvoreBinaria() {
-		// TODO Auto-generated constructor stub
+		Nodo raiz;
 	}
 
 	@Override
