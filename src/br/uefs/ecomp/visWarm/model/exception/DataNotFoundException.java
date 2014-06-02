@@ -1,4 +1,4 @@
-package br.uefs.ecomp.VisWarm.model.exception;
+package br.uefs.ecomp.viswarm.model.exception;
 
 public class DataNotFoundException extends Exception {
 

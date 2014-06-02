@@ -2,12 +2,15 @@ package br.uefs.ecomp.viswarm.util;
 
 import java.util.Iterator;
 
-import br.uefs.ecomp.viswarm.util.exception.DataNotFoundException;
+import br.uefs.ecomp.viswarm.model.exception.DataNotFoundException;
 
 public class ArvoreBinaria implements IBinaryTree {
 
+	private Nodo raiz;
+	
 	public ArvoreBinaria() {
-		Nodo raiz;
+		Nodo raiz = null;
+		
 	}
 
 	@Override

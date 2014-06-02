@@ -1,6 +1,6 @@
 package br.uefs.ecomp.viswarm.util;
 
-import br.uefs.ecomp.viswarm.util.exception.DataNotFoundException;
+import br.uefs.ecomp.viswarm.model.exception.DataNotFoundException;
 
 public interface IBinaryTree extends Iterable {
 

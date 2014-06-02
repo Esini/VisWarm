@@ -9,7 +9,8 @@ package br.uefs.ecomp.viswarm.util;
  */
 public class Nodo {
 	private Object objeto;
-	private Nodo proximo;
+	private Nodo esq;
+	private Nodo dir;
 	
 	/**
 	 * Construtor da classe Nodo, define o objeto a ser guardado.
@@ -23,12 +24,21 @@ public class Nodo {
 	/*
 	 * Setters e getters com nome mais bonitinho.
 	 */
-	public void defineProximo(Nodo proximo) {
-		this.proximo = proximo;
+	
+	public void defineEsquerda(Nodo newEsquerda) {
+		this.esq = newEsquerda;
 	}
 	
-	public Nodo obtemProximo() {
-		return proximo;
+	public void defineDireita(Nodo newDireita) {
+		this.dir = newDireita;
+	}
+	
+	public Nodo obtemEsquerda() {
+		return esq;
+	}
+	
+	public Nodo obtemDireita() {
+		return dir;
 	}
 	
 	public void defineObjeto(Object obj) {
